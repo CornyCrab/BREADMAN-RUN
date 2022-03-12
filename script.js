@@ -20,7 +20,7 @@ function randomSquare() {
 }
 
 squares.forEach(square => {
-    square.addEventListener('mousedown' || 'touch', () => {
+    square.addEventListener('mousedown' || 'touchstart', () => {
         if (square.id == hitPosition) {
             result++
             score.textContent = result
