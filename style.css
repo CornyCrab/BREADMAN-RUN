@@ -1,0 +1,70 @@
+.grid {
+    margin:auto;
+    width: 606px;
+    height: 606px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.block{
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html{
+background: #c2501a;
+color: wheat;
+text-align: center;
+font-family: 'Fredoka', sans-serif;
+}
+
+.block{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+.better{
+    display:none;
+}
+
+.mole {
+    background-image: url("images/breadman.png");
+}
+
+@media(max-width: 1000px){
+    .grid{
+        margin-top: 200px;
+        width: 807px;
+        height: 807px;
+        padding-bottom:300px;
+        
+    }
+    .square {
+        height: 267px;
+        width: 267px;
+        border: solid black 1px;
+    }
+    html{
+        font-size: 3vw;
+    }
+    .block{
+        border-radius: 5%;
+    }
+    .mole {
+        background: url("images/breadman.png") no-repeat center;
+    }
+    .better{
+        margin: 20px;
+        display:block;
+    }
+}
